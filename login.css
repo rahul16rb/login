@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+label,input,a{
+    display: block;
+    margin-bottom: 10px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+form{
+    background-color: palevioletred;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    color: red;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width:90%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+#new{
+    text-align: center;
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(46, 43, 2);
+    color: white;
+    font-size: 15px;
+}
+#cancel{
+    background-color:gray;
+
+}
+#icon{
+    position: relative;
+}
+.fa-solid{
+    color: yellow;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#psw{
+    position: relative;
+}
+.fa-solid{
+    color: cadetblue;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+}
